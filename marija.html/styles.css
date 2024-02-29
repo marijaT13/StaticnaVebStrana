@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Scheherazade+New&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Scheherazade+New&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ephesis&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Italianno&family=Scheherazade+New&display=swap');
+                    *{
+                        box-sizing:border-box;
+                        font-family:'Scheherazade New';
+                        color:rgb(124, 124, 124);
+                        
+                    }
+
+                        html, body{
+                            margin: 0;
+                            padding:0;
+                        }
+
+
+
+    .nav ul{
+    margin: 0;
+    }
+    .nav li{
+    display: inline;
+    }
+    .nav a{
+    display: -moz-inline-box; 
+    padding: .3em;
+    color:gray;
+    text-decoration: none;
+    }
+    .nav a:hover{
+    background-color: rgba(255,255,255,.3);
+    }
+    .main-nav {
+    text-align: center;
+    font-size: 1em;
+    font-weight: lighter;
+    border-bottom: 1px solid rgba(255,255,255,.3);
+
+    }
+    .main-nav li{
+    padding: 0 15%;
+    }
+
+
+            .main-header{
+                background-image:url(pics/smoke2.png);
+                background-color:rgba(0,0,0,.3);
+                background-blend-mode: multiply;
+                background-size: cover;
+                background-position: center;
+                padding-bottom: 80px;
+            }
+
+            .Cigare{
+                    text-align:center;
+                    margin: 5px solid;
+                    font-size: 3.5em;
+                    font-family:'Dancing Script', cursive;
+                     font-weight: normal;
+                    font-style: normal;
+                }
+
+                .content-section{
+                    margin: 1em;
+                }
+            .container{
+                max-width:none;
+                margin: 0 auto;
+                padding: 0 1.5em;
+            }
+
+            .section-header{
+                font-family: 'Dancing Script', cursive;
+                color: rgb(53, 52, 52);
+                text-align: center;
+            }
+            .img2-section{
+                float:left ;
+                height:300px;
+                width: 250px;
+                margin: 15px;
+                border-radius: 50%;
+                }
+                .img1-section{
+                    
+                    margin: 5px;
+                    border-radius: 50%;
+                    }
+                .text-content{
+                margin: 0 top;
+                padding: 0 1.5em;
+                font-size: 1.2em;
+                }
+                .main-footer{
+                    background-color:rgb(115, 9, 9);
+                    color: lightslategray;
+                    padding:.25em 0;
+                }
+
+                .main-footer-container{
+                    display:flex;
+                    align-items: center;
+                }
+                .main-footer-container ul{
+                    flex-grow: 10;
+                    text-align: end;
+                }
+
+                .footer-nav li{
+                    padding:0 .5em;
+                }
+
+
+
+.btn{
+    text-align:center;
+    vertical-align:middle;
+    padding: .67em;
+    text-decoration: none;
+}
+.btn-header{
+    margin: .5em 15% 2em 15%;
+    color: whitesmoke;
+    border:2px solid rgb(115, 9, 9);
+    background-color: rgba(255,255,255,.1);
+    font-size: 1.2em;
+    border-radius: 0;
+    font-weight: lighter;
+    text-decoration: none;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+.btn-header:hover{
+    background-color:rgba(255,255,255,.3); ;
+}
+
+.brand-items{
+    margin:30px;
+}
+
+.brand-items-title{
+    display: block;
+    width : 100%;
+    text-align:center;
+    font-weight:bolder;
+    font-size: 1.5em;
+    color:rgb(105, 100, 100);
+    margin-bottom:15px;
+}
+
+.brand-items-image{
+    height:250px;
+   
+}
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+.brand-items-info{
+    display:flex;
+    align-items:center;
+    padding: 5px;
+    border:0.5px solid rgb(209, 209, 250);
+    border-radius: 0;
+    
+}
+.brand-item{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.quote-content{
+    margin: 0 top;
+    text-align:center;
+    padding:0;
+    font-size: 2em;
+    font-family: 'Ephesis', cursive;
+    text-decoration-color: transparent;
+}
+
+.brand-items:hover .brand-items-image  { 
+    opacity:0.3;
+    }
+    .brand-items:hover .middle{
+        opacity:1;
+    }
+.form1{
+    padding: 0 3em;
+    text-align: left;
+display:inline-block;
+vertical-align: top;
+}
+
+#Survey{
+    text-align:center;
+}
+
